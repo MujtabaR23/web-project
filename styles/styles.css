@@ -75,3 +75,44 @@ section.driver
     max-height: 350px;
     overflow: auto;
 }
+.videoContent
+{
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+    text-align: center;
+}
+.required {
+    font-weight: bold;
+    color: red;
+}
+label
+{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input
+{
+    margin-left: 1em;
+    margin-bottom: 2em;
+    width: 300px;
+}
+
+input[type="checkbox"] {width: 15px;}
+input[type="radio"] {width: 10px;}
+
+#button, #reset
+{
+    margin-top: 5em;
+    width: 8em;
+    background-color: rgb(118, 213, 236);
+    border: 2px solid black;
+}
+.map
+{
+    text-align: center;
+}

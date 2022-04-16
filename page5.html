@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="Discription of f1 & home page" content="Home">
+    <meta name="F1, Formula one, cars" content="Section, Articles, Footer">
+    <title> F1 - student project</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="icon" href="images/F1.svg.png" type="image/gif" sizes="16x16">
+
+    <style>
+        body {
+            background-image: url(../project/images/f1\ cars.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px;
+        }
+
+        main {
+            margin: 15px 100px;
+            padding: 20px;
+            border: black solid 1px;
+            background: white;
+            min-height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--start of body section-->
+    <header>
+        <img style="float: left; margin: 8px;" src="images/F1.svg.png" alt="logo" width="225" height="77">
+        <h1 style="color:rgb(206, 12, 38);">Formula One - this is a college project </h1>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Home </a></li>
+            <li> <a href="page2.html"> Red Bull </a></li>
+            <li> <a href="page3.html"> Mercedes F1 </a></li>
+            <li> <a href="page4.html"> Scuderia Ferrari </a></li>
+            <li id="active"> <a href="page5.html"> contact </a> </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h3> Please enter the following information & your favourite team :  </h3>
+            <form action="https:/foo.com" method="post">
+                <label for="first_name"> First name: <span class="required"></span> </label>
+                <input type="text" name="first_name" id="first_name" autofocus required> <br>
+                <label for="last_name"> Last name: <span class="required"></span></label>
+                <input type="text" name="last_name" id="last_name" required> <br>
+                <label for="email"> Email: <span class="required"></span> </label>
+                <input type="text" name="email" id="email" required placeholder="johnDoE@example.com"> <br>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender1" name="gender" value="female"> Female <br>
+                <label for="internet"> favourite team : </label>
+
+                <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Red Bull Racing <br>
+                    <input type="checkbox" class="marginl" id="hear" name="paper" value="paper"> Mercedes-AMG <br>
+                    <input type="checkbox" class="marginl" id="hear1" name="friend" value="friend"> Scuderia Ferrari <br>
+                    <input type="checkbox" class="marginl" id="hear2" name="Add" value="Add"> Others <br>
+                </fieldset><br>
+
+                <label for="message"> others(please list) : </label>
+                <textarea name="message" id="message" cols="60" rows="6"
+                    placeholder="Your message must be less than 200 characters" data-maxlength="200">
+                </textarea><br>
+
+                <input type="submit" name="submit" id="button" value="submit">
+                <input type="reset" name="reset" id="reset">
+
+            </form>
+
+            <p style="margin-left: 130px"> <span class="required"></span> <em> * indicates a required field </em> </p>
+
+        </section>
+    </main>
+</body>
+
+</html>
